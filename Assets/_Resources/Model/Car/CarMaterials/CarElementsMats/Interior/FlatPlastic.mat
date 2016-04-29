@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FlatPlastic
+  m_Shader: {fileID: 6, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: ffa9c02760c2b4e8eb9814ec06c4b05b, type: 3}
+          m_Scale: {x: 50, y: 50}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMap
+        second:
+          m_Texture: {fileID: 2800000, guid: ffa9c02760c2b4e8eb9814ec06c4b05b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MatCapLookup
+        second:
+          m_Texture: {fileID: 2800000, guid: fe310b430db02ab4596480e6af51afb8, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectionMap
+        second:
+          m_Texture: {fileID: 8900000, guid: 8b5e3f0ab0510a64385f5b656728141c, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .601286173
+      data:
+        first:
+          name: _ReflectionStrength
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .0441176295, g: .0441176295, b: .0441176295, a: 0}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .198529422, g: .198529422, b: .198529422, a: 1}
+      data:
+        first:
+          name: _DetailColor
+        second: {r: .110294104, g: .110294104, b: .110294104, a: 1}
+      data:
+        first:
+          name: _DetailMapParams
+        second: {r: 100, g: 100, b: .00999999978, a: 1}
+      data:
+        first:
+          name: _DiffuseColor
+        second: {r: .191176474, g: .191176474, b: .191176474, a: 0}
+      data:
+        first:
+          name: _ReflectionColor
+        second: {r: .147058845, g: .147058845, b: .147058845, a: 0}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

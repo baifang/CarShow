@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: TiresGum
+  m_Shader: {fileID: 4800000, guid: e3f09075e98950e46a06757006727be6, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MatCapLookup
+        second:
+          m_Texture: {fileID: 2800000, guid: ddc7197508bf2054ba4b7bf67c2d547c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectionMap
+        second:
+          m_Texture: {fileID: 8900000, guid: 8b5e3f0ab0510a64385f5b656728141c, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMap
+        second:
+          m_Texture: {fileID: 2800000, guid: e5107355b926f67409bde9ae8af02654, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _ReflectionStrength
+        second: .464285731
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .0588235259, g: .0588235259, b: .0588235259, a: 0}
+      data:
+        first:
+          name: _DiffuseColor
+        second: {r: .16911763, g: .16911763, b: .16911763, a: 0}
+      data:
+        first:
+          name: _ReflectionColor
+        second: {r: .0367646813, g: .0367646813, b: .0367646813, a: 0}
+      data:
+        first:
+          name: _DetailMapParams
+        second: {r: 200, g: 200, b: 1, a: 1}
